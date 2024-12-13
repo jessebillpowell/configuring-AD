@@ -45,8 +45,6 @@ In this step, we created an administrative user (Admin User) and Organizational 
   
   *Create an OU called _ADMINS for administrative users
   
-  *Create an OU called _CLIENTS for client users.
-  
   *Create a user named Jane Doe. Jane Doe will be added to the _ADMINS OU. Also, for this user to have admin privileges, Jane Doe must also be added to "Domain Admins"   
    Security Group. 
   
@@ -63,9 +61,9 @@ After creating these OU's, we log out of the DC-1 as labuser, and then log back 
 <br />
 
 <p>
-<img src="https://i.imgur.com/As8fhd3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ww9maAa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, we want to ensure that Client-1's DNS settings are using DC-1'S private IP address. This should have already been done in the preparing Active Directory portion of the lab, but good to make sure. Then login into Client-1 using the local admin account "labuser" and join it to the domain "mydomain.com." Afterwards, we re-start the Client-1 virtual machine. Then we login into DC-1 Domain Controller as jane_admin, look under Windows Administrative Tools - Active Directory Users & Computers and look to verify that Client-1 is listed in the "CLIENTS" tab. Lastly, create OU called _CLIENTS and move Client-1 into this OU. 
 </p>
 <br />
