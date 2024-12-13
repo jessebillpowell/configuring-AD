@@ -77,9 +77,9 @@ In this step, you want to enter "Domain Users" as users that have access to use 
 <br />
 
 <p>
-<img src="https://i.imgur.com/RLWu33u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/RWpa8i4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In this step, you want to enter "Domain Users" as users that have access to use Remote Desktop, so that domain users may access the Client-1 from Remote Desktop.
+Next, Powershell ISE will be opened as an administrator. We will use a script that auto-create random user names of 10,000 employees and place these randown names in the Organizational Unit "_EMPLOYEES." The employee accounts can be checked by looking under Windows Administrative Tools - Active Directory Users & Computers and look to verify the random users. We will choose a random user, "fex.pih," logout out jane_admin, login as fex.pih and add the password for all emplyees of "Password1."
 </p>
 <br />
