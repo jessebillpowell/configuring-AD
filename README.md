@@ -75,3 +75,11 @@ Next, we want to ensure that Client-1's DNS settings are using DC-1'S private IP
 In this step, you want to enter "Domain Users" as users that have access to use Remote Desktop, so that domain users may access the Client-1 from Remote Desktop.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/RLWu33u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+In this step, you want to enter "Domain Users" as users that have access to use Remote Desktop, so that domain users may access the Client-1 from Remote Desktop.
+</p>
+<br />
