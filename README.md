@@ -31,7 +31,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src=https://i.imgur.com/H7PgUQ6.png"" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-In the first step, we want to login to DC-1 (Domain Controller) and i
+In the first step, we want to login to DC-1 (Domain Controller) and install Active Directory Domain Services. Then Promote DC-1 to a Domain Controller and configure a new forest with a dom ain (mydomain.com\) was used. The default account was logged out, the Remote Desktop was re-started to ensure these changes took effect, and then logged in under the new domain, as mydomain.com\labuser, so that logging in as a domain user is allowed now. 
 </p>
 <br />
 
