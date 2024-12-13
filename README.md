@@ -47,9 +47,18 @@ In this step, we created an administrative user (Admin User) and Organizational 
   
   *Create an OU called _CLIENTS for client users.
   
-  *Create a user named Jane Doe. Jane Doe will be added to the _ADMINS OU.
+  *Create a user named Jane Doe. Jane Doe will be added to the _ADMINS OU. Also, for this user to have admin privileges, Jane Doe must also be added to "Domain Admins"   
+   Security Group. 
   
 After creating these OU's, we log out of the DC-1 as labuser, and then log back in, as Jane Doe, using the domain and user name for Jane Doe (mydomain.com\jane_admin).
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/As8fhd3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
 
