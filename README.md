@@ -39,7 +39,12 @@ In the first step, we want to login to DC-1 (Domain Controller) and install Acti
 <img src="https://i.imgur.com/ITqySOz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In this step, we created an administrative user (Admin User) and Organizational Units.
+  *Create an Organizational Unit (OU) called _EMPLOYEES for employee users
+  *Create an OU called _ADMINS for administrative users
+  *Create an OU called _CLIENTS for client users.
+  *Create a user named Jane Doe. Jane Doe will be added to the _ADMINS OU.
+After creating these OU's, we log out of the DC-1 as labuser, and then log back in, as Jane Doe, using the domain and user name for Jane Doe (mydomain.com\jane_admin).
 </p>
 <br />
 
