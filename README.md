@@ -40,10 +40,15 @@ In the first step, we want to login to DC-1 (Domain Controller) and install Acti
 </p>
 <p>
 In this step, we created an administrative user (Admin User) and Organizational Units.
+ 
   *Create an Organizational Unit (OU) called _EMPLOYEES for employee users
+  
   *Create an OU called _ADMINS for administrative users
+  
   *Create an OU called _CLIENTS for client users.
+  
   *Create a user named Jane Doe. Jane Doe will be added to the _ADMINS OU.
+  
 After creating these OU's, we log out of the DC-1 as labuser, and then log back in, as Jane Doe, using the domain and user name for Jane Doe (mydomain.com\jane_admin).
 </p>
 <br />
