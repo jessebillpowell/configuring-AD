@@ -64,6 +64,6 @@ After creating these OU's, we log out of the DC-1 as labuser, and then log back 
 <img src="https://i.imgur.com/ww9maAa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Next, we want to ensure that Client-1's DNS settings are using DC-1'S private IP address. This should have already been done in the preparing Active Directory portion of the lab, but good to make sure. Then login into Client-1 using the local admin account "labuser" and join it to the domain "mydomain.com." Afterwards, we re-start the Client-1 virtual machine. Then we login into DC-1 Domain Controller as jane_admin, look under Windows Administrative Tools - Active Directory Users & Computers and look to verify that Client-1 is listed in the "CLIENTS" tab. Lastly, create OU called _CLIENTS and move Client-1 into this OU. 
+Next, we want to ensure that Client-1's DNS settings are using DC-1'S private IP address. This should have already been done in the preparing Active Directory portion of the lab, but good to make sure. Then login into Client-1 using the local admin account "labuser" and join it to the domain "mydomain.com." Afterwards, we re-start the Client-1 virtual machine. Then we login into DC-1 Domain Controller as jane_admin, look under Windows Administrative Tools - Active Directory Users & Computers and look to verify that Client-1 is listed in the "CLIENTS" tab. Lastly, create an OU called _CLIENTS and move Client-1 into this OU. 
 </p>
 <br />
